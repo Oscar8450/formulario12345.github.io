@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Diego Alejandro Rodriguez Reyes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 2px solid #000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+        .intro {
+            text-align: center;
+            margin: 40px 0;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .projects, .work, .education {
+            border: 1px solid black;
+            padding: 15px;
+        }
+        .reviews {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 2px solid black;
+        }
+        .review {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 15px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">[Logo]</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Experiencia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="intro">
+        <h1>Diego Alejandro Rodriguez Reyes</h1>
+        <p>Bachiller en Informática - 17 años - Honduras</p>
+    </section>
+    
+    <main>
+        <section class="projects">
+            <h2>Proyectos</h2>
+            <ul>
+                <li>Portafolio en HTML y CSS</li>
+                <li>Calculadora en JavaScript</li>
+                <li>Aplicación de preguntas y respuestas</li>
+                <li>Temporizador de cuenta regresiva</li>
+                <li>Página de productos en desarrollo</li>
+            </ul>
+        </section>
+        
+        <section class="work-education">
+            <div class="work">
+                <h2>Experiencia</h2>
+                <h3>Desarrollo Web Freelance</h3>
+                <p>Creación de sitios web estáticos y dinámicos utilizando HTML, CSS y JavaScript.</p>
+                
+                <h3>Contribuciones a Código Abierto</h3>
+                <p>Participación en proyectos de código abierto, con más de 200 estrellas en GitHub.</p>
+            </div>
+            
+            <div class="education">
+                <h2>Educación</h2>
+                <p>Graduado con excelencia académica en el Bachillerato en Informática.</p>
+                <h3>Cursos y habilidades:</h3>
+                <ul>
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Estructuras de Datos y Algoritmos</li>
+                    <li>Desarrollo Web</li>
+                    <li>Inteligencia Artificial Básica</li>
+                    <li>Interacción Humano-Computadora</li>
+                    <li>Gestión de Bases de Datos</li>
+                    <li>Matemáticas Discretas</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="reviews">
+            <h2>Reseñas de mis Profesores</h2>
+            <div class="review">
+                <p>Diego fue un estudiante excepcional, siempre comprometido con la excelencia en sus proyectos.</p>
+                <span>María López, Profesora de Programación</span>
+            </div>
+            <div class="review">
+                <p>Destacó por su creatividad y habilidades técnicas en el desarrollo de software.</p>
+                <span>Carlos Martínez, Profesor de Desarrollo Web</span>
+            </div>
+            <div class="review">
+                <p>Diego tiene una gran capacidad de aprendizaje y resolución de problemas en informática.</p>
+                <span>Ana Pérez, Profesora de Algoritmos</span>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; By Diego Rodriguez and Oscar Aguilera</p>
+    </footer>
+</body>
+</html>
